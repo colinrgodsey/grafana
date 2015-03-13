@@ -15,6 +15,7 @@ require.config({
     text:                     '../vendor/require/text',
     moment:                   '../vendor/moment',
     filesaver:                '../vendor/filesaver',
+    hdrhistogram:             '../vendor/hdrhistogram',
     angular:                  '../vendor/angular/angular',
     'angular-route':          '../vendor/angular/angular-route',
     'angular-sanitize':       '../vendor/angular/angular-sanitize',

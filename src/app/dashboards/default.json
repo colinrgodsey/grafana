@@ -1,9 +1,13 @@
 {
+  "id": null,
   "title": "Grafana",
+  "originalTitle": "Grafana",
   "tags": [],
   "style": "dark",
   "timezone": "browser",
   "editable": true,
+  "hideControls": false,
+  "sharedCrosshair": false,
   "rows": [
     {
       "title": "New row",
@@ -50,25 +54,27 @@
       ]
     },
     {
-      "title": "test",
+      "title": "New row",
       "height": "250px",
       "editable": true,
       "collapse": false,
       "panels": [
         {
-          "id": 4,
+          "title": "Histogram Test",
+          "error": false,
           "span": 12,
-          "type": "graph",
+          "editable": true,
+          "type": "histogram",
+          "id": 4,
+          "datasource": null,
+          "renderer": "flot",
           "x-axis": true,
           "y-axis": true,
-          "scale": 1,
           "y_formats": [
             "short",
             "short"
           ],
           "grid": {
-            "max": null,
-            "min": null,
             "leftMax": null,
             "rightMax": null,
             "leftMin": null,
@@ -78,16 +84,14 @@
             "threshold1Color": "rgba(216, 200, 27, 0.27)",
             "threshold2Color": "rgba(234, 112, 112, 0.22)"
           },
-          "resolution": 100,
           "lines": true,
-          "fill": 1,
-          "linewidth": 2,
+          "fill": 0,
+          "linewidth": 1,
           "points": false,
           "pointradius": 5,
           "bars": false,
-          "stack": true,
-          "spyable": true,
-          "options": false,
+          "stack": false,
+          "percentage": false,
           "legend": {
             "show": true,
             "values": false,
@@ -97,31 +101,20 @@
             "total": false,
             "avg": false
           },
-          "interactive": true,
-          "legend_counts": true,
-          "timezone": "browser",
-          "percentage": false,
           "nullPointMode": "connected",
           "steppedLine": false,
           "tooltip": {
             "value_type": "cumulative",
-            "query_as_alias": true
+            "shared": false
           },
           "targets": [
             {
-              "target": "randomWalk('random walk')",
-              "function": "mean",
-              "column": "value"
+              "target": ""
             }
           ],
           "aliasColors": {},
-          "aliasYAxis": {},
-          "title": "First Graph (click title to edit)",
-          "datasource": "graphite",
-          "renderer": "flot",
-          "annotate": {
-            "enable": false
-          }
+          "seriesOverrides": [],
+          "links": []
         }
       ]
     }
@@ -155,7 +148,8 @@
         "2h",
         "1d"
       ],
-      "now": true
+      "now": true,
+      "notice": false
     }
   ],
   "time": {
@@ -165,5 +159,9 @@
   "templating": {
     "list": []
   },
-  "version": 5
+  "annotations": {
+    "list": []
+  },
+  "version": 6,
+  "hideAllLegends": false
 }

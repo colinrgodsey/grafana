@@ -1,0 +1,184 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.1.9
+3 info using node@v0.10.33
+4 verbose node symlink /usr/local/bin/node
+5 verbose install where, deps [ '/Users/crgodsey/grafana',
+5 verbose install   [ 'grunt-jscs-checker',
+5 verbose install     'karma-sinon',
+5 verbose install     'sinon',
+5 verbose install     'expect.js',
+5 verbose install     'glob',
+5 verbose install     'grunt',
+5 verbose install     'grunt-angular-templates',
+5 verbose install     'grunt-cli',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-compress',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-connect',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-htmlmin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-less',
+5 verbose install     'grunt-contrib-requirejs',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-filerev',
+5 verbose install     'grunt-git-describe',
+5 verbose install     'grunt-karma',
+5 verbose install     'grunt-ngmin',
+5 verbose install     'grunt-string-replace',
+5 verbose install     'grunt-usemin',
+5 verbose install     'jshint-stylish',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-coffee-preprocessor',
+5 verbose install     'karma-coverage',
+5 verbose install     'karma-coveralls',
+5 verbose install     'karma-expect',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-html2js-preprocessor',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-mocha',
+5 verbose install     'karma-phantomjs-launcher',
+5 verbose install     'karma-requirejs',
+5 verbose install     'karma-script-launcher',
+5 verbose install     'load-grunt-tasks',
+5 verbose install     'mocha',
+5 verbose install     'requirejs',
+5 verbose install     'rjs-build-analysis',
+5 verbose install     'hdrhistogram' ] ]
+6 verbose install where, peers [ '/Users/crgodsey/grafana', [] ]
+7 info preinstall grafana@1.9.0
+8 warn package.json grunt-contrib-htmlmin@0.1.3 No README data
+9 warn package.json karma-chrome-launcher@0.1.7 No README data
+10 warn package.json karma-coverage@0.2.7 No README data
+11 warn package.json karma-mocha@0.1.10 No README data
+12 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+13 warn package.json rjs-build-analysis@0.0.3 No repository field.
+14 warn package.json expect.js@0.2.0 No repository field.
+15 verbose already installed skipping grunt-angular-templates@^0.5.5 /Users/crgodsey/grafana
+16 verbose already installed skipping grunt-cli@~0.1.13 /Users/crgodsey/grafana
+17 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/crgodsey/grafana
+18 verbose already installed skipping grunt-contrib-compress@~0.5.2 /Users/crgodsey/grafana
+19 verbose already installed skipping grunt-contrib-concat@^0.4.0 /Users/crgodsey/grafana
+20 verbose already installed skipping grunt-contrib-connect@~0.5.0 /Users/crgodsey/grafana
+21 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/crgodsey/grafana
+22 verbose already installed skipping grunt-contrib-cssmin@~0.6.1 /Users/crgodsey/grafana
+23 verbose already installed skipping grunt-contrib-htmlmin@~0.1.3 /Users/crgodsey/grafana
+24 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/crgodsey/grafana
+25 verbose already installed skipping grunt-contrib-less@~0.7.0 /Users/crgodsey/grafana
+26 verbose already installed skipping grunt-contrib-requirejs@~0.4.1 /Users/crgodsey/grafana
+27 verbose already installed skipping grunt-contrib-uglify@~0.2.4 /Users/crgodsey/grafana
+28 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/crgodsey/grafana
+29 verbose already installed skipping grunt-filerev@^0.2.1 /Users/crgodsey/grafana
+30 verbose already installed skipping grunt-git-describe@~2.3.2 /Users/crgodsey/grafana
+31 verbose already installed skipping grunt-karma@~0.8.3 /Users/crgodsey/grafana
+32 verbose already installed skipping grunt-ngmin@0.0.3 /Users/crgodsey/grafana
+33 verbose already installed skipping grunt-string-replace@~0.2.4 /Users/crgodsey/grafana
+34 verbose already installed skipping grunt-usemin@^2.1.1 /Users/crgodsey/grafana
+35 verbose already installed skipping jshint-stylish@~0.1.5 /Users/crgodsey/grafana
+36 verbose already installed skipping karma@~0.12.21 /Users/crgodsey/grafana
+37 verbose already installed skipping karma-chrome-launcher@~0.1.4 /Users/crgodsey/grafana
+38 verbose already installed skipping karma-coffee-preprocessor@~0.1.2 /Users/crgodsey/grafana
+39 verbose already installed skipping karma-coverage@^0.2.5 /Users/crgodsey/grafana
+40 verbose already installed skipping karma-coveralls@^0.1.4 /Users/crgodsey/grafana
+41 verbose already installed skipping karma-expect@~1.1.0 /Users/crgodsey/grafana
+42 verbose already installed skipping karma-firefox-launcher@~0.1.3 /Users/crgodsey/grafana
+43 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 /Users/crgodsey/grafana
+44 verbose already installed skipping karma-jasmine@~0.2.2 /Users/crgodsey/grafana
+45 verbose already installed skipping karma-mocha@~0.1.4 /Users/crgodsey/grafana
+46 verbose already installed skipping karma-phantomjs-launcher@~0.1.1 /Users/crgodsey/grafana
+47 verbose already installed skipping karma-requirejs@~0.2.1 /Users/crgodsey/grafana
+48 verbose already installed skipping karma-script-launcher@~0.1.0 /Users/crgodsey/grafana
+49 verbose already installed skipping load-grunt-tasks@~0.2.0 /Users/crgodsey/grafana
+50 verbose already installed skipping mocha@~1.16.1 /Users/crgodsey/grafana
+51 verbose already installed skipping requirejs@~2.1.14 /Users/crgodsey/grafana
+52 verbose already installed skipping rjs-build-analysis@0.0.3 /Users/crgodsey/grafana
+53 silly cache add args [ 'hdrhistogram@*', null ]
+54 verbose cache add spec hdrhistogram@*
+55 silly cache add parsed spec { raw: 'hdrhistogram@*',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'hdrhistogram',
+55 silly cache add   rawSpec: '*',
+55 silly cache add   spec: '*',
+55 silly cache add   type: 'range' }
+56 verbose addNamed hdrhistogram@*
+57 silly addNamed semver.valid null
+58 silly addNamed semver.validRange *
+59 silly addNameRange { name: 'hdrhistogram', range: '*', hasData: false }
+60 silly mapToRegistry name hdrhistogram
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/hdrhistogram
+64 verbose addNameRange registry:https://registry.npmjs.org/hdrhistogram not in flight; fetching
+65 verbose request uri https://registry.npmjs.org/hdrhistogram
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 08:53:09
+68 verbose request id 77506c0ba5b53f5d
+69 http request GET https://registry.npmjs.org/hdrhistogram
+70 verbose already installed skipping grunt-jscs-checker@^0.4.4 /Users/crgodsey/grafana
+71 verbose already installed skipping karma-sinon@^1.0.3 /Users/crgodsey/grafana
+72 verbose already installed skipping sinon@^1.10.3 /Users/crgodsey/grafana
+73 verbose already installed skipping expect.js@~0.2.0 /Users/crgodsey/grafana
+74 verbose already installed skipping glob@~3.2.7 /Users/crgodsey/grafana
+75 verbose already installed skipping grunt@~0.4.0 /Users/crgodsey/grafana
+76 http 404 https://registry.npmjs.org/hdrhistogram
+77 verbose headers { date: 'Mon, 22 Dec 2014 14:53:09 GMT',
+77 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+77 verbose headers   'content-type': 'application/json',
+77 verbose headers   'cache-control': 'max-age=0',
+77 verbose headers   'content-length': '52',
+77 verbose headers   'accept-ranges': 'bytes',
+77 verbose headers   via: '1.1 varnish',
+77 verbose headers   age: '0',
+77 verbose headers   'x-served-by': 'cache-dfw1828-DFW',
+77 verbose headers   'x-cache': 'MISS',
+77 verbose headers   'x-cache-hits': '0',
+77 verbose headers   'x-timer': 'S1419259989.460838,VS0,VE67',
+77 verbose headers   'keep-alive': 'timeout=10, max=50',
+77 verbose headers   connection: 'Keep-Alive' }
+78 silly get cb [ 404,
+78 silly get   { date: 'Mon, 22 Dec 2014 14:53:09 GMT',
+78 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+78 silly get     'content-type': 'application/json',
+78 silly get     'cache-control': 'max-age=0',
+78 silly get     'content-length': '52',
+78 silly get     'accept-ranges': 'bytes',
+78 silly get     via: '1.1 varnish',
+78 silly get     age: '0',
+78 silly get     'x-served-by': 'cache-dfw1828-DFW',
+78 silly get     'x-cache': 'MISS',
+78 silly get     'x-cache-hits': '0',
+78 silly get     'x-timer': 'S1419259989.460838,VS0,VE67',
+78 silly get     'keep-alive': 'timeout=10, max=50',
+78 silly get     connection: 'Keep-Alive' } ]
+79 verbose stack Error: 404 Not Found: hdrhistogram
+79 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:232:14)
+79 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+79 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:372:22)
+79 verbose stack     at Request.emit (events.js:98:17)
+79 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1310:14)
+79 verbose stack     at Request.emit (events.js:117:20)
+79 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1258:12)
+79 verbose stack     at IncomingMessage.emit (events.js:117:20)
+79 verbose stack     at _stream_readable.js:943:16
+79 verbose stack     at process._tickCallback (node.js:419:13)
+80 verbose statusCode 404
+81 verbose pkgid hdrhistogram
+82 verbose cwd /Users/crgodsey/grafana
+83 error Darwin 14.0.0
+84 error argv "node" "/usr/local/bin/npm" "install"
+85 error node v0.10.33
+86 error npm  v2.1.9
+87 error code E404
+88 error 404 Not Found: hdrhistogram
+88 error 404
+88 error 404 'hdrhistogram' is not in the npm registry.
+88 error 404 You should bug the author to publish it (or use the name yourself!)
+88 error 404 It was specified as a dependency of 'grafana'
+88 error 404
+88 error 404 Note that you can also install from a
+88 error 404 tarball, folder, http url, or git url.
+89 verbose exit [ 1, true ]

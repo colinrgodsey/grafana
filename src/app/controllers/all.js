@@ -17,4 +17,5 @@ define([
   './templateEditorCtrl',
   './sharePanelCtrl',
   './jsonEditorCtrl',
+  './histogramTarget',
 ], function () {});

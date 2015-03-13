@@ -45,6 +45,7 @@ module.exports = function(config,grunt) {
       include: [
         'css',
         'kbn',
+        'hdrhistogram',
         'text',
         'jquery',
         'angular',

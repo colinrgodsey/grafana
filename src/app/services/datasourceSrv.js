@@ -3,6 +3,7 @@ define([
   'lodash',
   'config',
   './graphite/graphiteDatasource',
+  './hdrhistogram/hdrhistogramDatasource',
   './influxdb/influxdbDatasource',
   './opentsdb/opentsdbDatasource',
   './elasticsearch/es-datasource',
@@ -69,6 +70,9 @@ function (angular, _, config) {
         break;
       case 'elasticsearch':
         Datasource = $injector.get('ElasticDatasource');
+        break;
+      case 'hdrhistogram':
+        Datasource = $injector.get('HDRHistogramDatasource');
         break;
       default:
         Datasource = $injector.get(ds.type);

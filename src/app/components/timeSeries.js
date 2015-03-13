@@ -13,6 +13,7 @@ function (_, kbn) {
     this.color = opts.color;
     this.valueFormater = kbn.valueFormats.none;
     this.stats = {};
+    this.dontFlip = opts.dontFlip || false;
   }
 
   function matchSeriesOverride(aliasOrRegex, seriesAlias) {
@@ -99,7 +100,8 @@ function (_, kbn) {
         this.stats.min = currentValue;
       }
 
-      result.push([currentTime, currentValue]);
+      if(this.dontFlip) result.push([currentValue, currentTime]);
+      else result.push([currentTime, currentValue]);
     }
 
     if (this.datapoints.length >= 2) {
